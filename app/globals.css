@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'SFProDisplay' sans-serif;
+}
+
+body {
+  position: relative;
+  overflow-y: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  padding: 20px 40px 20px 100px;
+}
+
+@font-face {
+  font-family: 'SFProDisplay' 'sans';
+  src: url('/assets/fonts/SFPRODISPLAYBLACKITALIC.OTF');
+  src: url('/assets/fonts/SFPRODISPLAYBOLD.OTF');
+  src: url('/assets/fonts/SFPRODISPLAYLIGHTITALIC.OTF');
+  src: url('/assets/fonts/SFPRODISPLAYMEDIUM.OTF');
+  src: url('/assets/fonts/SFPRODISPLAYREGULAR.OTF');
+  /* font-weight: 400; */
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}

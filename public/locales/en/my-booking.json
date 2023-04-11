@@ -1,0 +1,16 @@
+{
+  "my-booking-title":"My Booking",
+  "my-booking-text":"Here is a list of all your booked properties, including up-to-date information on payment and deadlines",
+  "type-of-room":"Double Lux",
+  "free-return":"Free cancellation until October 20.",
+  "description":"Description of the room:",
+  "arriving":"Arriving",
+  "download-vaucher":"Download voucher",
+  "cancel-booking":"Cancel booking",
+  "cost-calculation":"Cost calculation",
+  "sale":"10% discount for a week",
+  "vat":"VAT",
+  "total-to-be-paid":"Total to be paid",
+  "paid-for":"Paid for",
+  "paid-to-data":"To be paid on October 24, 2019"
+}

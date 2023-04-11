@@ -1,0 +1,25 @@
+.radio:checked~.checkmark {
+  background-color: white;
+  border: 2px solid #0EDF9B;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 3px;
+  left: 3px;
+  width: 6.8px;
+  height: 6px;
+  border-radius: 0;
+  background: #0EDF9B;
+}

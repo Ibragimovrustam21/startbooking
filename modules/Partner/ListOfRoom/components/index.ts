@@ -1,0 +1,1 @@
+export { RoomCardPartner } from "./RoomCardPartner/RoomCardPartner";

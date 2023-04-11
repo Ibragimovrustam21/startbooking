@@ -1,0 +1,54 @@
+@mixin base-select {
+  &__control {
+    cursor: pointer !important;
+    font-size: 14px !important;
+
+    &--is-focused {
+      outline: none !important;
+      box-shadow: none !important;
+    }
+  }
+
+  &__indicators {
+    display: none !important;
+  }
+
+  &__menu-list {
+    max-height: 180px !important;
+    font-size: 14px !important;
+  }
+}
+
+.base-select {
+  @include base-select
+}
+
+// main-page-select
+.main-page-select-1 {
+  @include base-select;
+
+  &__control {
+    border: none !important;
+    border-radius: 5px 0 0 5px !important;
+    font-size: 14px !important
+  }
+}
+
+.main-page-select-2 {
+  @include base-select;
+
+  &__control {
+    border: none !important;
+    border-radius: 0 !important;
+    font-size: 14px !important
+  }
+}
+
+// with svg
+.svg-select {
+  @include base-select;
+
+  &__control {
+    padding-left: 25px !important;
+  }
+}

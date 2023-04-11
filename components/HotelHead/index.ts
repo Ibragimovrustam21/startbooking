@@ -1,0 +1,1 @@
+export { HotelHead } from "./HotelHead";
